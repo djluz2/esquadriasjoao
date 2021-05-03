@@ -1,0 +1,329 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	/*font-size: 20px;*/
+	font-size: 16px;
+}
+
+.linha {
+	position: relative;
+	float: left;
+	width: 100%;
+	box-sizing: content-box; /* por causa do Bootstrap */
+}
+
+.linha-sem-largura {
+	position: relative;
+	float: left;
+	box-sizing: content-box;
+}
+
+.linha-33, .bloco-card {
+	width: 33%;
+	box-sizing: border-box;
+	padding: 10px 3%;
+}
+
+.linha-meio {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.linha-depoimento {
+	position: relative;
+	float: left;
+	width: 85%;
+}
+
+.titulo-quicksand {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+}
+
+.box-img-depoimento {
+	position: relative;
+	float: left;
+	width: 190px;
+	height: 190px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 20px;
+}
+
+.linha-depoimento .box-img-depoimento:nth-child(even) {
+	float: right;
+}
+
+.img-depoimento {
+	position: relative;
+	float: left;
+	width: 200%;
+	top: -10px;
+	left: -10px;
+}
+
+.titulo-depoimento {
+	color: #0061df;
+}
+
+.bloco-poscarrossel {
+	/*background-color: #999;*/
+	float: unset;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	max-width: 1300px;
+}
+
+.geral {
+	
+}
+
+.topo {
+	/*background-color: #330000;*/
+	min-height: 50px;
+	box-shadow: 0px 3px 13px 0px #00000020;
+	z-index: 1000;
+}
+
+.navbar-menu-topo .nav-item {
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-bottom: 3px;
+}
+
+.navbar-menu-topo .nav-link {
+	color: #333 !important;
+}
+
+.navbar-menu-topo .navbar-nav {
+	width: 80%;
+}
+
+.navbar-menu-topo .nav-item:hover, .link-topo-ativo {
+	border-bottom: 3px solid #007bff;
+	padding-bottom: 0;
+}
+
+.conteudo-centro {
+
+}
+
+.carousel-item {
+	height: 600px;
+}
+
+.img-carousel {
+	width: 100%;
+	top: -200px;
+	position: relative;
+}
+
+.banner {
+	min-height: 300px;
+	max-height: 930px;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.centro {
+	text-align: center;
+}
+
+.esquerda {
+	text-align: left;
+}
+
+.justificado {
+	text-align: justify;
+}
+
+.direita {
+	text-align: right;
+}
+
+.margem-bottom, .margem-baixo {
+	margin-bottom: 15px;
+}
+
+.margem-bottom-30, .margem-baixo-30 {
+	margin-bottom: 30px;
+}
+
+.margem-top, .margem-cima {
+	margin-top: 15px;
+}
+
+.margem-top-30, .margem-cima-30 {
+	margin-top: 30px;
+}
+
+.margem-left-4, .margem-esquerda-4 {
+	margin-left: 4%;
+}
+
+.img-poscarrossel {
+	padding-bottom: 20px;
+}
+
+.bloco {
+	position: relative;
+	float: left;
+    /* display: inline-block; */
+    width: 32.333%;
+    margin: 10px 0.5%;
+}
+
+.box-projeto, .box-depoimento {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.img-projetos {
+	position: relative;
+	float: left;
+	width: 45%;
+}
+
+.img-projetos img {
+	width: 100%;
+}
+
+.descritivo-projetos {
+	position: relative;
+	float: left;
+	width: 55%;
+	max-height: 365px;
+	padding-left: 4%;
+}
+
+.descritivo-depoimento {
+	position: relative;
+	float: left;
+	width: 75%;
+	max-height: 365px;
+}
+
+.ajusta-tags-direita {
+	position: relative;
+    float: right;
+}
+
+.ajusta-tags-esquerda {
+	position: relative;
+    float: left;
+}
+
+.ajusta-tags-direita label {
+	padding-left: 5px;
+}
+
+.tag {
+	color: #0061df;
+	padding-left: 5%;
+}
+
+.tag a, .tag a:visited, .tag a:hover, .tag a:active {
+	color: #444;
+}
+
+.tag a label {
+	cursor: pointer;
+}
+
+.bt-conheca-projetos {
+	background-color: #0061df;
+	border-color: #0060c8;
+	padding: 20px 5%;
+	font-size: 1.5rem;
+	border-radius: 12px;
+	color: #fff;
+}
+
+.bt-conheca-projetos:hover {
+	background-color: #0060bb;
+	color: #fff;
+}
+
+.rodape {
+	background-color: #144f56/* #003170*/;
+	min-height: 260px;
+	padding-top: 30px;
+	padding-right: 3%;
+	padding-bottom: 20px;
+	padding-left: 3%;
+	box-sizing: border-box;
+	border-top: 10px solid #a99d70;
+}
+
+.rodape h3 {
+	color: #a99d70;
+}
+
+.fonte-branca {
+	color: #efefef;
+}
+
+@media screen and (max-width: 1320px) {
+
+	.img-carousel {
+		width: 100%;
+		top: -100px;
+		position: relative;
+	}
+
+	.carousel-item {
+		height: 400px;
+	}
+
+}
+
+@media screen and (max-width: 991px) {
+
+	.bloco-card {
+		width: 100%;
+	}
+
+	.img-projetos, .descritivo-projetos {
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 800px) {
+
+	.img-carousel {
+		width: 900px;
+		top: -70px;
+		position: relative;
+	}
+
+	.carousel-item {
+		height: 400px;
+	}
+
+}
+
+@media screen and (max-width: 635px) {
+
+	.img-carousel {
+		width: 700px;
+		top: -100px;
+		position: relative;
+	}
+
+	.carousel-item {
+		height: 300px;
+	}
+
+}
