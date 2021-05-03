@@ -274,6 +274,19 @@ body {
 	color: #efefef;
 }
 
+.orcamento-left {
+	width: 70%;
+	font-size: 40px;
+	color: #fff;
+	text-align: left;
+}
+
+.orcamento-right {
+	width: 30%;
+	padding-top: 30px;
+	text-align: right;
+}
+
 @media screen and (max-width: 1320px) {
 
 	.img-carousel {
@@ -310,6 +323,11 @@ body {
 
 	.carousel-item {
 		height: 400px;
+	}
+
+	.orcamento-left, .orcamento-right {
+		width: 100%;
+		text-align: center;
 	}
 
 }
