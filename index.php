@@ -205,11 +205,11 @@
 
 				<div class="linha box-projeto teste-bg-fixed">
 					<div class="linha-meio">
-						<div class="linha inline-block esquerda" style="width: 70%; font-size: 40px; color: #fff;">
+						<div class="linha inline-block orcamento-left" style="">
 							<span style="font-weight: 900; text-shadow: -1px -1px 2px #444;">Precisa de um orçamento?</span>
 							<span style="font-weight: 900; text-shadow: -1px -1px 2px #444;">Entre em contato conosco</span>
 						</div>
-						<div class="linha inline-block direita" style="width: 30%; padding-top: 30px;"><a href="tel:+5551999887766" class="btn btn-primary" style="width: 200px; padding-top: 15px; padding-bottom: 15px; font-size: 18px; font-weight: 600;">Ligue agora</a></div>
+						<div class="linha inline-block orcamento-right" style=""><a href="tel:+5551999887766" class="btn btn-primary" style="width: 200px; padding-top: 15px; padding-bottom: 15px; font-size: 18px; font-weight: 600;">Ligue agora</a></div>
 					</div>
 				</div>
 
